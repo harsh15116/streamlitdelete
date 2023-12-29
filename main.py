@@ -1,5 +1,6 @@
 import streamlit as st
 from tensorflow.keras.preprocessing import image
+import sklearn
 from tensorflow.keras.applications.vgg16 import VGG16, preprocess_input, decode_predictions
 import numpy as np
 
